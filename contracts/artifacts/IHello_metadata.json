@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "CallFoo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_AHello",
+						"type": "address"
+					}
+				],
+				"name": "setAHello",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ContractInteraction.sol": "IHello"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ContractInteraction.sol": {
+			"keccak256": "0xeb41f3d6297d5e5cedb8e8e8dbf558db4062f4d6ff7378d5e8155f65f5f32f6d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f8ab1394a0a6b27b3b2819ecaf4ee7d3d3cc57bb25827e109a5ba1b97501df50",
+				"dweb:/ipfs/QmNLpFgtHogRgkATctyoqjRjEfnjqEkPLPuJpKmG26suz1"
+			]
+		}
+	},
+	"version": 1
+}

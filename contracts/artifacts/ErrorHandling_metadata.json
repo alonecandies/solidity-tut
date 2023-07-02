@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "testNum",
+						"type": "uint256"
+					}
+				],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ErrorHandlingNModifiers.sol": "ErrorHandling"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ErrorHandlingNModifiers.sol": {
+			"keccak256": "0x89f9f9a4932df76df18e42e400d775fd321ef0d70c1acba7b86756561696d2f0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fcfd03cc9512e5c97bb8ef75881ad982e7e8de976a9c531e1344bddc225eadad",
+				"dweb:/ipfs/QmbnvLWXkFsSSmagS3NJQrnQRCd5KAYdHonJzaXNaptkHa"
+			]
+		}
+	},
+	"version": 1
+}

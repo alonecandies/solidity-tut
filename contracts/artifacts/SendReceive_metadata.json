@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "BuySth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "send",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SendReceiveEth.sol": "SendReceive"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SendReceiveEth.sol": {
+			"keccak256": "0x077826fd65f99041f2ba031e0f0aceb682fd0d02b4ac05efd5a4e5e4e56f2c1f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://47f279cae05d374be2e0d70820f9cf678e8bd891b4231f958a2311d45c62e1e2",
+				"dweb:/ipfs/QmQ78tz2k9J3n2LinkxhnkJdyMmjhZ2hyfrpDu4new2vRn"
+			]
+		}
+	},
+	"version": 1
+}

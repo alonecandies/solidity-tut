@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "foo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Struct.sol": "Struct"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Struct.sol": {
+			"keccak256": "0xba26baffeb09080559f7a22bc4a5c6a69edeea977cde1f6a72537d907de71e58",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a9a93be743285a860189d6658a2471dcb29bf4cc72ba0aa034d4cc03ed934ca2",
+				"dweb:/ipfs/Qmb7Ufz5dpQxNLVrjKsuMQMgEgErzeoCrf8E15Vy2gCh4m"
+			]
+		}
+	},
+	"version": 1
+}

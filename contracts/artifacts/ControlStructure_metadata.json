@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "DoSmt",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isTrue",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ControlStructure.sol": "ControlStructure"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ControlStructure.sol": {
+			"keccak256": "0x63c25fa9fe4d9c832d5ca9b294f8d680929f4088f8f4b90f754f825d6ecabdfb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9bec917c5c174839282fca4c21edc7df87a2814ab6176a534a18d54b69c3976a",
+				"dweb:/ipfs/QmbqBPcMEGntw7BgvWVsmHhyjSVDDjPJNBg1Jmk4FBEaJG"
+			]
+		}
+	},
+	"version": 1
+}
